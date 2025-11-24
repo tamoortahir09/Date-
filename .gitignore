@@ -1,0 +1,24 @@
+# Node / Vite
+node_modules/
+.dist/
+/dist/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.tsbuildinfo
+
+# Env
+.env*
+!.env.example
