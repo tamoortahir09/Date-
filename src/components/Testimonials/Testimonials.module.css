@@ -1,15 +1,15 @@
-.section { max-width:1100px; margin:0 auto; padding:3.5rem clamp(1.5rem,3vw,4rem); }
+.section { max-width:1100px; margin:3rem auto; padding:3.5rem clamp(1.5rem,3vw,4rem); background:var(--clr-surface); border-radius:42px; box-shadow:0 25px 60px -38px rgba(0,0,0,.2); }
 .header { text-align:center; margin-bottom:2rem; }
 .header h2 { font-size:1.9rem; margin:0; }
 .slider { position:relative; }
-.slide { opacity:0; transform:translateX(40px); transition:.55s; position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; background:#fff; padding:3rem 2rem; border-radius:var(--radius-lg); box-shadow:var(--shadow-md); text-align:center; }
+.slide { opacity:0; transform:translateX(40px); transition:.55s; position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--gradient-card); padding:3rem 2rem; border-radius:var(--radius-lg); box-shadow:var(--shadow-md); text-align:center; border:1px solid rgba(255,255,255,.6); }
 .slide[data-active="true"] { opacity:1; transform:translateX(0); position:relative; }
 .avatar { width:64px; height:64px; border-radius:50%; object-fit:cover; margin-bottom:1rem; box-shadow:0 6px 16px rgba(0,0,0,.12); }
 .quote { font-size:1.25rem; max-width:620px; text-align:center; margin:0 0 1.1rem; line-height:1.35; }
 .location { font-size:.8rem; letter-spacing:.5px; text-transform:uppercase; color:var(--clr-accent); font-weight:600; }
 .controls { position:absolute; inset:0; display:flex; justify-content:space-between; align-items:center; pointer-events:none; }
-.controls button { pointer-events:auto; background:rgba(255,255,255,.85); border:1px solid rgba(0,0,0,.07); width:42px; height:42px; border-radius:50%; font-size:1.1rem; cursor:pointer; }
-.controls button:hover { background:#fff; }
+.controls button { pointer-events:auto; background:rgba(255,255,255,.85); border:1px solid rgba(0,0,0,.07); width:42px; height:42px; border-radius:50%; font-size:1.1rem; cursor:pointer; box-shadow:var(--shadow-sm); }
+.controls button:hover { background:#fff; transform:translateY(-2px); }
 .dots { display:flex; gap:.4rem; justify-content:center; margin-top:1rem; }
 .dots button { width:8px; height:8px; border:none; border-radius:999px; background:#cbbba8; cursor:pointer; }
 .dots button[data-active="true"] { background:var(--clr-accent); width:22px; transition:width .25s; }
