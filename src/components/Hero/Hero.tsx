@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
         <div className={styles.inner}>
           <div className={styles.copy}>            
             <span className={styles.badge}>100% Pure Natural</span>
-            <h1>Your Daily Dose of Fresh Dates</h1>
+            <h1>Your Daily Dose of <span className={styles.highlight}>Fresh Dates</span></h1>
             <p className={styles.lead}>Silky caramel sweetness, layered texture, and nutrient-rich fuel for every ritual. Curated from Tunisian oases, packed within 48h.</p>
             <div className={styles.actions}>              
               <button className={styles.primary}>Shop Now</button>

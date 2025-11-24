@@ -3,6 +3,7 @@
 .board { max-width:1350px; margin:0 auto; background:var(--clr-surface); border-radius:48px; padding:clamp(2.5rem,3vw,4rem); border:1px solid var(--clr-border); box-shadow:0 30px 60px -40px rgba(0,0,0,.6); }
 .inner { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:3rem; align-items:center; }
 .copy h1 { font-size:clamp(2.8rem,6vw,4.2rem); line-height:1.05; margin:1rem 0; color:#1e0f0f; }
+.copy h1 .highlight { color:var(--clr-accent); }
 .badge { display:inline-flex; align-items:center; padding:.35rem 1rem; border-radius:999px; background:var(--clr-secondary-soft); color:var(--clr-secondary); font-weight:600; font-size:.85rem; letter-spacing:.5px; text-transform:uppercase; }
 .lead { max-width:520px; font-size:1.05rem; color:var(--clr-text-light); margin-bottom:1.8rem; }
 .actions { display:flex; gap:1rem; flex-wrap:wrap; }
